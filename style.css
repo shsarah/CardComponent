@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+}
+
+body{
+    background-color: rgba(10,12,27,255);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box{
+    width: 1200px;
+    height: 480px;
+    background-color: #1c1938;
+    border-radius: 18px;
+    margin: 150 0px;
+    display: flex;
+}
+
+.box_text_content{
+    margin: 0 40px;
+    padding: 0 40px;
+    color:white;
+}
+.box_text{
+    display: flex;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 38px;
+}
+
+span{
+    color:#9d61c5;
+}
+
+.description{
+    font-weight: lighter;
+    opacity: 0.6;
+    margin-top: 40px;
+    line-height: 28px;
+}
+.image{
+    height: 480px;
+    width: 626px;
+    background-color: #9d61c5;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+img{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    height: 480px;
+    width: 626px;
+    position: relative;
+    opacity: 0.3;
+}
+
+.box_footer{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box span{
+    text-transform: uppercase;
+    font-size: 14px;
+    color:white;
+    opacity: 0.6;
+}
